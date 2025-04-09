@@ -4,6 +4,7 @@ public class String_TO_CharArray2 {
 
 	public static void main(String[] args) {
 		
+		System.out.println("Hello");
 		String s2 = "abc";
 		String s22="";
 		
