@@ -3,5 +3,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="Strings"/>
 	<classpathentry kind="src" path="OOP"/>
+	<classpathentry kind="src" path="Multithreading"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
