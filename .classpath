@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="Strings"/>
 	<classpathentry kind="src" path="OOP"/>
 	<classpathentry kind="src" path="Multithreading"/>
+	<classpathentry kind="src" path="Array"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
