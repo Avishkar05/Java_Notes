@@ -1,0 +1,242 @@
+Strings :
+
+	1.String is a non-primitive data type
+	2.String is a sequence of Characters
+	3.String is a array of Characters
+	4.String is a class(Final)
+	5.String is a object i.e. Immutable
+
+-> There are two Ways to Create a String :
+	1.By using "new" Keywords
+		ex : String s = new String("Java");
+
+	2.By using Literal
+		ex : String s = "Java";
+
+
+-> TO Combine String 
+		String s = "Java";
+	-> String s2 = s.concat(s1);
+	-> System.out.println(s2);
+
+		    or
+
+	-> System.out.println(s.concat(s1));
+
+
+-> TO Get Length of String  
+		String s = "Java";
+	-> System.out.println("Java : "+s.length());  		//4
+	-> System.out.println("Hefshine : "+s1.length());	//8
+
+
+-> TO Find Index number by it Index Value
+		String s = "Java";
+	-> System.out.println("'f' is at index :"+s1.indexOf('f'));  //2
+
+
+-> TO Find Index value by it Index number
+		String s = "Java";
+	-> System.out.println("Index 2 : "+s1.charAt(2));	//f
+
+
+
+Java String methods :
+
+-> Comparison
+
+	-> .equals()
+		
+		-->	In Java, the equals() method is used to compare the contents (values) of two strings.
+
+			It returns true if the strings have the same characters in the same order.
+
+			It returns false if they are different
+
+
+	-> .equalsIgnoreCase()
+	
+		-->	The method compares two strings while ignoring case differences.
+
+			It returns:
+
+			true → If both strings have the same characters, regardless of uppercase or lowercase.
+
+			false → If the strings have different characters.
+
+	-> .compareTo()
+
+		-->	Returns 0 → If both strings are equal.
+
+			Returns a negative value (<0) → If str1 is lexicographically smaller than str2.
+
+			Returns a positive value (>0) → If str1 is lexicographically greater than str2.
+
+	-> .compareToIgnoreCase()
+		
+		-->	Returns 0 → If both strings are equal (ignoring case).
+
+			Returns a negative value (<0) → If str1 is lexicographically smaller than str2 (ignoring case).
+
+			Returns a positive value (>0) → If str1 is lexicographically greater than str2 (ignoring case).
+
+
+	-> .matches()
+
+		-->	Returns true → If the entire string matches the regex pattern.
+
+			Returns false → If the string does not match the regex pattern.
+
+
+
+-> Searching
+	
+	-> .contain()
+		-->	The .contains() method is used to check whether a substring exists within a string.
+
+			Returns true → If the substring exists in the string.
+
+			Returns false → If the substring is not found.
+
+	-> .startsWith(String prefix)
+		
+		-->	The .startsWith() method checks whether a string starts with a specified prefix.
+
+			Returns true → If the string starts with the given prefix.
+
+			Returns false → If the string does not start with the given prefix.	
+
+			With offset: Checks from a specific index
+
+
+	-> .endsWith(String suffix)
+		
+		--> The .endsWith() method checks whether a string ends with a specified suffix.
+
+			Returns true → If the string ends with the given suffix.
+
+			Returns false → If the string does not end with the given suffix.
+
+
+
+	-> Finding Position
+
+	-> .indexOf(String str)
+		
+		--> The .indexOf() method returns the index of the first occurrence of a substring in a string.
+
+			Returns index → Position of first occurrence.
+
+			Returns -1 → If the substring is not found.
+
+	-> .lastIndexOf(String str)
+		
+		--> The .lastIndexOf() method returns the index of the last occurrence of a substring in a string.
+
+			Returns index → Position of last occurrence.
+
+			Returns -1 → If the substring is not found.
+
+
+-> Modification
+
+	-> .toUpperCase()
+		--> Converts the string to uppercase.
+
+	-> .toLowerCase()
+	
+		--> Converts the string to lowercase.
+
+	-> .trim()
+		--> Removes leading and trailing spaces.
+
+	
+	-> .strip()
+		--> Removes leading and trailing whitespace (Unicode-friendly).
+
+	
+	-> .replace(char old, char new)
+		--> Replaces all occurrences of a character.
+
+	
+	-> .replaceAll(String regex, String repl)
+		--> Replaces all substrings matching a regex.
+
+
+	-> .replaceFirst(String regex, String repl)
+		--> Replaces the first substring matching a regex.
+
+
+-> Substring
+
+	-> .substring(int beginIndex)
+		--> Returns a substring from the given index to the end.
+
+	-> .substring(int beginIndex, int endIndex)
+		--> Returns a substring between the specified indexes.
+
+	-> Splitting & Joining
+
+	-> .split(String regex)
+		--> Splits the string based on a regex pattern and returns an array.
+
+	-> .join(CharSequence delimiter, CharSequence... elements)
+		--> Joins multiple strings with the given delimiter.
+
+-> Character Extraction
+
+	-> .charAt(int index)
+		--> Returns the character at the specified index.
+
+	-> .toCharArray()
+		--> Converts the string to a character array.
+
+-> Length & Empty Check
+
+	-> .length()
+		--> Returns the length of the string.
+
+	-> .isEmpty()
+		--> Checks if the string is empty (length == 0).
+
+	-> .isBlank()
+		--> Checks if the string is empty or contains only whitespace.
+
+-> Conversion
+
+	-> .valueOf(dataType var)
+		--> Converts different data types into a string.
+
+	-> .getBytes()
+		--> Converts the string into a byte array.
+
+-> Formatting
+
+	-> .format(String format, Object... args)
+		--> Formats a string using placeholders (like printf).
+
+	-> .toString()
+		--> Returns the string representation of an object.
+
+
+
+
+
+String Buffer :
+
+	-> String Buffer is predefined class which was introduced in JDK 1.0
+	-> Reuse object of string buffer class.
+	-> String buffer introduce in old version of there is no multithreading  as well it is one by one Synchronization.
+	-> It is quite slow work because it is Synchronization.
+	-> It is Tread Safe.
+	-> In String Buffer we can't loss our data because it use the synchronization.
+
+
+String Builder :
+	-> String Builder is predefine class.
+	-> Introduce in  JDK 1.2
+	-> It is updated version of String Buffer
+	-> It has multithreading concept.
+	-> IT is non-synchronization (All Tread work at a same time)
+	-> It is quite faster than String Buffer.
+	-> It is not tread safe concept
