@@ -1,0 +1,10 @@
+Multithreading :--> Multithreading in java is a process of executing multithreading simultaneously.
+		--> A tread is a lightweight sub-process, the smallest unit of processing.
+		--> java multithreading is mostly use in games, animation, etc.
+		--> It has two types: 1) multiprocessing :- Process-based multitasking.
+				      2) Multithreading :- Tread-based multitasking.
+
+-> Tread in java :-
+	-> A tread is lightweight subprocess, the smallest unit of processing. It is separate path of execution.
+	-> Tread are independent. if there occurs exception in one tread, it doesn't effect other treads.
+	-> It uses a shared memory area.
