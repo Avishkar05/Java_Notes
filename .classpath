@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="Multithreading"/>
 	<classpathentry kind="src" path="Array"/>
 	<classpathentry kind="src" path="Patterns"/>
+	<classpathentry kind="src" path="Exception_Handling"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
