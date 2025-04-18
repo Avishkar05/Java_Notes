@@ -1,0 +1,46 @@
+Set :
+	-> Set is a Interface who extends the collection interface directly if we want to represent the group of individual object where instruction ordered is not allowed 
+	   then we should go for Set, we can't create object of Set interface that why they provide us some predefine class who has same functionality as Set interface.
+
+HashSet :
+	-> HashSet is Child Class of Set interface Who implants the Set interface reuse object of HashSet class. 
+	-> HashSet is Heterogeneous Concept.
+	-> HashSet Doesn't maintain insertion order.
+	-> HashSet Doesn't allow Duplicated Value.
+	-> NULL insertion is Possible but only once.
+	-> If we are trying to add Duplicated objects we won't get any compile and run Time Error, It will simply return False.
+	
+	-> Java HashSet Class is used to create a collation that uses a hash Table for storage.
+	-> HashSet Stores the element by using mechanism Called Hashing
+	-> HashSet Contains unique element only.
+	-> In Hashing, The information content of a key is used to determine a unique value, Called its Hash code.
+	
+	
+	Method 			| 	Purpose
+	
+	add(E e) 		| 	Adds element (if not already present)
+	remove(Object o) 	| 	Removes the element
+	contains(Object o) 	| 	Checks if the element exists
+	isEmpty() 		| 	Returns true if set has no elements
+	size() 			| 	Number of elements
+	clear() 		| 	Removes all elements
+	forEach() / iterator() 	| 	Looping through elements
+
+LinkedHashSet :
+ 
+	-> Maintains insertion order
+	-> internally used a linked list along with Hash Table to keep the order of element as they were inserted.
+	-> Slightly slower than HashSet Because of extra memory and time to maintain the linked list.
+	-> Best when you want a set with Predictable iteration order.
+
+	
+	HashSet				|	LinkedHashSet
+
+	no Insertion order		|	Insertion order
+	Faster				|	Slower than HashSet
+	Best when order doesn't Matter	|	Best when you want a set with Predictable iteration order
+
+
+
+
+
