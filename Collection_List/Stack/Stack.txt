@@ -1,0 +1,15 @@
+Stack :
+	-> Stack is a legacy Class introduce in JDK 1.0
+	-> Stack is a child class of vector Class present in a java.util package.
+	-> Stack designed on the basics of LIFO / FILO .
+	-> Stack implemented on the basis of array, array list, linked list, vector.
+	-> Stack is a index based data structure.
+	
+Methods :
+	-> push() = To add element in Stack.
+	-> pop()  = To retrieve top most element present in Stack.
+	-> peek() = To Find out top element present in Stack.
+	-> search() = To Search element position.
+	-> empty() = To check Stack is empty or not
+	
+	
