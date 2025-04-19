@@ -1,0 +1,49 @@
+Vector :
+	-> Vector is a legacy Class
+	-> Vector is a implement class of list interface present in Java.util Package
+	-> Vector is a growable and resizable array
+	-> all legacy Class methods are synchronized method
+	
+Properties of Vector :
+	-> Index based data Structure.
+	-> we can store homogenous as well as heterogenous type of data
+	-> Store duplicate element
+	-> Store multiple NULL values
+	-> Follow insertion order
+	-> doesn't follow sorting order
+	-> Methods are synchronized
+	-> Thread Safe
+	-> Performance slow
+	
+	
+	ArrayList					Vector
+	
+	1)Introduced in JDK 1.2 version			1)Introduced in JDK 1.0 version
+	2)not legacy class				2)legacy class
+	3)Non-synchronized				3)synchronized
+	4)Not Thread Safe				4)Thread Safe
+	5)Fast Performance				5)Slow Performance
+	
+
+Methods :
+	-> Capacity()
+	-> addelement()
+	-> firstelement()
+	-> lastelement()
+	-> removeelemetnt()
+
+
+	Method 			| 	What It Does
+	
+	add(element) 		| 	Adds an element to the end
+	get(index) 		| 	Gets element at index
+	set(index, element)	| 	Replaces element at index
+	remove(index) 		| 	Removes element at index
+	size() 			| 	Returns number of elements
+	contains(element) 	| 	Checks if element exists
+	clear() 		| 	Empties the vector
+
+	
+	
+	
+	
