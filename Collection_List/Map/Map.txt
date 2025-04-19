@@ -1,0 +1,18 @@
+Map : 
+					   Map
+					    |
+
+		|	 		    |			|	
+	    Hash map			  Sorted 	    Hash Table
+		|			    |					
+	  Linked HashMap		Navigable Map	
+					    |
+					Tree Map
+					
+Map :
+	-> Map is a interface, Which is present in java.util package
+	-> Map introduce in JDK 1.2 version.
+	-> Map, Data stored in key value pair.
+	-> In Map, Key Should be unique and value can be duplicate.
+	-> Key Accept Maximum one null value and value accept more than one null value.
+	-> Map Doesn't Follow Insertion and Shoring Order.
