@@ -1,0 +1,17 @@
+TreeSet:
+
+	->  TreeSet is a predefined class which implements Navigable Set directly and indirectly to the Sorted Set.
+	-> We use object of TreeSet class.
+	-> TreeSet is one of the most important implementation of the Sorted Set interface in Java that uses a tree for storage, 
+		i.e. Balance Tree or Binary Tree or Self Balance Tree or Red Black Tree.
+	-> The ordering of the element is maintained by using their natural ordering (Sorting Order).
+	-> The objects of the TreeSet are stored in ascending order.
+
+Imp Points:
+	i) TreeSet is a homogeneous concept
+	ii) It doesn't allow the insertion order
+	iii) TreeSet prefers sorting order
+	iv) The internal data structure of TreeSet is Balance Tree
+	v) It is a non-synchronized concept
+	vi) Duplicates are not allowed because it follows the sorting order
+	vii) NULL is not allowed
