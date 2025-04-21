@@ -1,12 +1,12 @@
-TreeMap :
+Tree Map :
 
 
-Propertise of TreeMap :
-	-> Treemap is a implemented class of navigable interface as well as implemented by sorted and map interface.
+Properties of Tree Map :
+	-> Tree map is a implemented class of navigable interface as well as implemented by sorted and map interface.
 	-> Present in java.util package.
 	-> introduce in JDK 1.2 version.
 	-> does not follows insertion order.
 	-> follow sorting order w.r.t. key
-	-> non-sychronised class
+	-> non-synchronized class
 	-> doesn't accept null value
-	-> Stroe homogenous as well as hetrogenous type of data.
+	-> Store homogenous as well as heterogenous type of data.
