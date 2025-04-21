@@ -9,4 +9,4 @@ Propertise of TreeMap :
 	-> follow sorting order w.r.t. key
 	-> non-sychronised class
 	-> doesn't accept null value
-	-> 
+	-> Stroe homogenous as well as hetrogenous type of data.
