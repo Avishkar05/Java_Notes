@@ -2,7 +2,7 @@ package TreeMap;
 
 import java.util.TreeMap;
 
-public class Treemap_basics_ex2 {
+public class Treemap_basics_Methods {
 
 	public static void main(String[] args) {
 		TreeMap<Object,Object>  map = new TreeMap<Object,Object>();
