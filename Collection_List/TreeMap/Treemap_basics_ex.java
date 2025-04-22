@@ -1,27 +1,31 @@
 package TreeMap;
 
-import java.util.TreeMap;
+import java.util.*;
 
 public class Treemap_basics_ex {
 
 	public static void main(String[] args) {
-		TreeMap<Object,Object>  map = new TreeMap<Object,Object>();
 		
-		map.put(20, "Ketan");
-		map.put(10, "Avishkar");
-		map.put(70, "onkar");
-		map.put(90, "vilas");
-		map.put(200, "Sahil");
+		TreeMap <Object,Object> map2 = new TreeMap<Object,Object>();
 		
-		System.out.println(map);
+		map2.put(01, "Avishkar");
+		map2.put(05, "Onkar");
+		map2.put(03, "Ketan");
+		map2.put(02, "Vilas");
+		map2.put(07, "Sahil");
+		map2.put(04, "Rohan");
 		
-		//Use to print equal or greater 
-		System.out.println(map.ceilingEntry(80));
+		System.out.println(map2);
 		
-		//Use to print equal or lower 
-		System.out.println(map.floorEntry(60));
+//		To retrive and delete first element
+		System.out.println(map2.pollFirstEntry());
+		System.out.println(map2);
 		
+//		To retrive and delete Last element
+		System.out.println(map2.pollLastEntry());
+		System.out.println(map2);
 		
+		System.out.println(map2.size());
 		
 	}
 
